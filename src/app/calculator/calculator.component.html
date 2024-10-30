@@ -1,0 +1,10 @@
+<h1>{{ message }}</h1>
+<!--One Way Binding! Number1:
+<input type="number" (keyup)="retrieveNumber1($event)" />
+Number2: <input type="number" (keyup)="retrieveNumber2($event)" />
+<button (click)="sum()">Sum</button>
+<h3>Result is {{ sumNumber }}</h3>-->
+<p>Two Way Binding!</p>
+Number1: <input type="number" [(ngModel)]="number1" /> Number2:
+<input type="number" [(ngModel)]="number2" />
+<button (click)="sum()">Sum</button>
