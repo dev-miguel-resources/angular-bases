@@ -16,13 +16,13 @@ export class CalculatorComponent {
   @Output()
   emitter: EventEmitter<number> = new EventEmitter<number>();
 
-  retrieveNumber1(e: any) {
+  /*retrieveNumber1(e: any) {
     this.number1 = +e.target.value;
   }
 
   retrieveNumber2(e: any) {
     this.number2 = +e.target.value;
-  }
+  }*/
 
   sum() {
     this.sumNumber = this.number1 + this.number2;
